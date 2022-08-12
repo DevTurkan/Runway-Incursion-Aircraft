@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CAD1D4E8-16D7-4597-B6B0-AD1FD1CE57A6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>RunwayIncursion</RootNamespace>
+    <AssemblyName>RunwayIncursion</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.cs">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6.Designer.cs">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6.resx">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1585299300786_PgQHBpoZ.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2022-03-07 152702.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home-button-icon-9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2022-03-01 124659.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\airplane1yuxariii.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6221857iii.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\airplane2sola.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\airplane1ii.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alov.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\airplane2asagi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2022-03-01 1246591.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\airplane3yuxarii.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\airplane3saga.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reload-blue-icon-image-free-download-searchpng-blue-refresh-icon-symbol-text-logo-trademark-transparent-png-1062659.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\airplane2solasagi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\airplane3saga1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UEZbutov.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SARİline-icon-11-256 - Copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SARİline-icon-11-256 - Copy1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tersineSARİline-icon-11-256 - Copy - Copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GOYline-icon-11-256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GOY2line-icon-11-256 - Copy - Copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QİRMİZİline-icon-11-256 - Copy - Copy - Copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QİRMİZİ2line-icon-11-256 - Copy - Copy - Copy - Copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TundRozvuline-icon-11-256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TundRozvuline-icon-11-2561.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\YASİLline-icon-11-256 - Copy - Copy - Copy - Copy - Copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IkinciUEZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2UEZ2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\airplane2sola1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2022-03-22 144412.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QİRMİZİline-icon-11-256 - Copy - Copy - Copy1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2022-03-22 145443.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\airplane3saga2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\airplane2Yuxari.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\airplane2Saga.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\airplane1iiSola.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\airplane3Asagi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\airplane3Sola.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\airplane2AsagiMeyilli.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\airplane32Sola.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\airplane33Sola.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\airplane33Sola1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\airplane3saga3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\airplane32Yuxari.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\airplane32Saga.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\airplane33SolaAsagi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\airplane33SolaAsagii.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\airplane33SagaAsagi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\airplane33Saga.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6221857iiiAsagi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6221857iiiAsagiSola.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6221857iiiAsagiMeyilli.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\airplane3AsagiMeyilli.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\airplane3AsagiMeyilli1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reset2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reset3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flame-38727.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flame-387271.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\airplane3bas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bakuaeroport.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reset4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reset5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reset6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reset61.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reset7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backfoto.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bluee.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arxafon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bakuaeroport.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bakuaeroport - Copy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bakuaeroport - Copy1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bakuaerop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\output-onlinepngtools.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\output-onlinepngtools1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f5pic.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

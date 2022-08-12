@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>İki və ya daha çox nəqliyyat vasitəsinin eyni uçuş-enmə zolağında olması və ya eyni uçuş-enmə zolağına yaxınlaşması baş verə bilər ki, bu da ziddiyyətli vəziyyətlə nəticələnə bilər. Uçuş-enmə zolağına müdaxilənin beynəlxalq səviyyədə qəbul edilmiş tərifi belədir:
+Aerodromda hava gəmisinin, nəqliyyat vasitəsinin və ya şəxsin hava gəmisinin enməsi və qalxması üçün nəzərdə tutulmuş səthin mühafizə zonasında düzgün olmaması ilə bağlı hər hansı hadisədir.
+Hava Hərəkətinin İdarə Edilməsi (ATC – Air Traffic Control) hava gəmilərini yerdə və idarə olunan hava məkanından idarə edən yerüstü nəzarətçilər tərəfindən göstərilən xidmətdir. Hava hərəkəti dispetçerləri aşağıdakı kimi əsas vəzifələri yerinə yetirirlər:
+   -Pilotlara yaxınlıqdakı təyyarələr və potensial təhlükəli vəziyyətlər haqqında məsləhət vermək və yeniləmək
+   -Eniş üçün icazələrin və təlimatların verilməsi
+   -Hava məkanında və ya yerdə təyyarələrin monitorinqi və ya istiqamətləndirilməsi
+   -Uçuş planlarından, pilot hesabatlarından, radarlardan və ya müşahidələrdən uçuşlar haqqında məlumatların tərtib edilməsi
+Uçuş-enmə zolağına müdaxilə hadisələri ilə bağlı araşdırmalara görə, aşağıdakı ümumi müşahidələrin ən çox görülən nəticələri olduğu görüldü:
+   -Təyyarənin və ya nəqliyyat vasitəsinin ATC icazəsi olmadan uçuş-enmə zolağının qorunan ərazisinə səhv daxil olması
+   -ATC təlimatları olmadan və ya ona zidd olaraq hava gəmisi və ya nəqliyyat vasitəsinin uçuş-enmə zolağından səhv keçməsi
+   -ATC icazəsi olmadan eniş edilməsi
+   -ATC icazəsi olmadan uçuş edilməsi
+Bu hadisələrin baş vermə ehtimalını artıra bilən digər əsas amillərə aşağıdakılar daxildir:
+   -Görmə qabiliyyətinin aşağı olması pilotun sürmə yolları boyunca manevr edərkən yönünü itirməsi və öz mövqeyindən əmin olmaması halını artıra bilər. Bu şərtlər həmçinin ATC-nin təyyarəni vizual olaraq müəyyən etmək və izləmək qabiliyyətini məhdudlaşdıra bilər.
+   -Təyyarənin qalxma və ya enmə zolağı ilə parklanma mövqeyi arasında hərəkət etmək üçün aktiv uçuş-enmə zolağından keçməsini tələb edən sürmə yolu infrastrukturunun dizaynı potensial olaraq baş verə biləcək insident üçün əlavə risk yaradır.
+   -Uçuş vaxtlarına və icazələrə gec dəyişikliklər pilotun diqqətliliyində müvəqqəti konsentrasiyanın olmamasına səbəb ola bilər.
+   -Qeyri-standart terminologiyadan istifadə pilotlar və nəzarətçilər arasında çaşqınlığa və anlaşılmazlığa səbəb ola bilər.
+   -ATC və ekipajlar arasında ünsiyyət üçün birdən çox dildən eyni vaxtda istifadə edilməsi də çaşqınlığa səbəb ola bilər.
+Uçuş-enmə zolağına müdaxilə hadisəsinin qarşısını almaq üçün bu cür vəziyyətləri aradan qaldırmağın bir neçə yolu var:
+   -Uçuş heyətinin və manevr zonasından istifadə edən digər şəxslərin, xüsusən də aktiv uçuş-enmə zolaqlarına münasibətdə hava gəmilərinin və nəqliyyat vasitələrinin aktiv uçuş-enmə zolaqları ilə bağlı vəziyyət barədə məlumatlılığının təmin edilməsi.
+   -Standart uçuş-enmə zolağı nişanlarının və  sürmə yolunun səth nişanlarının olması.
+   -Uçuş-enmə zolağının işıqlandırmasının və sürmə yolunun işıqlandırmasının mövcudluğu, o cümlədən tutma nöqtəsi işıqlandırmasının olması.
+Uçuş-enmə zolağına müdaxilə növü:
+1) ATCO-nun(Air Traffic Control Officer) yaratdığı vəziyyət. Nəzarətçi iki ardıcıl eniş təyyarəsi arasında və ya əvvəlki qalxan hava gəmisi ilə sonrakı eniş aparatı arasında kifayət qədər məsafəni təmin etmir və növbəti uçuş aparatına eniş icazəsi verir ki, bu da müvafiq uçuş-enmə zolağından istifadə intervalının/ayırmanın minimumunun pozulmasına səbəb olur.
+2) Uçuş heyətinin yaratdığı vəziyyət. Təyyarə tanımadığı hava limanına enir və uçuş heyəti uçuş-enmə zolağından çıxan kimi yönünü itirir. Buna baxmayaraq, onlar sürmə təlimatlarını qəbul edir və öz mövqelərinə və ya verilən marşruta əmin olmadan davam edir və ehtiyatsızlıqdan aktiv uçuş-enmə zolağına daxil olurlar. Bundan əlavə uçuş-enmə zolağının  gözləmə xəttini icazəsiz keçməsi və ya icazəsiz uçuş və ya eniş etməsini də qeyd etmək olar. 
+3) Avtomobil sürücüsünün yaratdığı vəziyyət. Nəqliyyat vasitəsinin sürücüsü hava limanında manevr sahəsinin sxemi ilə kifayət qədər tanış deyil və onun uçuş-enmə zolağına daxil olmasına səbəb olan ATC tərəfindən verilmiş uçuş-enmə zolağına giriş icazəsini səhv şərh edir (Şəkil 6.1).
+
+Beynəlxalq miqyasda uçuş-enmə zolağına müdaxilələrin dörd müxtəlif şiddət kateqoriyası (A-dan D) müəyyən edilmişdir. Onlar aşağıdakılardır: 
+  - A kateqoriyası toqquşmanın qarşısının alındığı ciddi bir hadisədir.
+  - B kateqoriyası ayrılığın (yəni ki, təyyarələr arasındakı məsafənin) azaldığı və toqquşma potensialının olduğu bir hadisədir.
+  - C kateqoriyası toqquşmanın qarşısını almaq üçün kifayət qədər vaxt və yaxud məsafə ilə xarakterizə edilən hadisədir.
+  - D kateqoriyası, təyyarənin enişi və qalxması üçün nəzərdə tutulmuş səthin qorunan zonasında tək bir avtomobilin/şəxsin/təyyarənin düzgün olmaması kimi uçuş-enmə zolağına müdaxilə tərifinə cavab verən, lakin dərhal təhlükəsizlik nəticələri olmayan hadisədir.
+Uçuş-enmə zolağına müdaxilənin şiddətinin təsnifatı kalkulyatoru (RISC)  uçuş-enmə zolağına müdaxilənin nəticəsini şiddət təsnifatlarından birinə təsnif edən kompüter proqramıdır: RISC kalkulyator proqramı heç bir məlumat saxlamır. O, sadəcə olaraq uçuş-enmə zolağına müdaxilələrin şiddətini qiymətləndirmək üçün sürətli, asan və standartlaşdırılmış üsul təqdim edir. 
+Həmçinin, kalkulyator münaqişələrin şiddətini yalnız iki təyyarə (və ya təyyarə ilə nəqliyyat vasitəsi və ya piyada arasında) üçün kateqoriyalara ayırmaq üçün nəzərdə tutulub. Buna görə də, kalkulyator ikidən çox təyyarənin iştirak etdiyi münaqişələrin şiddətini qiymətləndirə bilməz.
+Model, bir təyyarəni, nəqliyyat vasitəsini və ya piyadanı əhatə edən bütün növ uçuşenmə zolağına müdaxilələri geniş şəkildə əhatə edən bir sıra vəziyyətlər və ya "ssenarilər" ilə başlayır. Ssenari müdaxilədə iştirak edən tərəflərin hərəkətini təsvir edir (eniş, havaya qalxma, uçuş-enmə zolağından keçmə, gözləmə xəttini keçmə və s.). Hər bir ssenarinin onunla əlaqəli müəyyən amillər dəsti var. Ciddilik (şiddət) reytinqi ən yaxın yaxınlığa (üfüqi və yaxud şaquli) və xüsusi ssenari üçün ölçülmüş amillər dəstinə əsaslanır.
+Müvafiq amillərə aşağıdakılar aid edilə bilər:
+ a) görmə qabiliyyəti;
+ b) hava gəmisinin növü;
+ c) yerinə yetirilən qaçma manevri (pilotun təşəbbüsü və ya nəzarətçinin əmri ilə):
+ d) uçuş-enmə zolağının xüsusiyyətləri və şərtləri (en, əyləc hərəkəti);
+ e) vəziyyətin nə dərəcədə idarə olunduğu və ya idarə olunmadığı (məsələn, pilot/nəzarətçi xətalarının növü, nəzarətçinin bütün iştirakçı tərəflərdən xəbərdar olub-olmaması).
+Kalkulyator istifadəçisi yuxarıdakı məlumatları müvafiq sahələrə daxil edir və “reytinqi hesabla” virtual düyməsini sıxır. Daha sonra şiddət dərəcəsi göstərilir.
+</value>
+  </data>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>25</value>
+  </metadata>
+</root>
